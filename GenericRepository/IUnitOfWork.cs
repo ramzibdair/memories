@@ -8,6 +8,7 @@ namespace GenericRepository
     {
        IGenericCommendRepository CommendRepository { get; }
        IGenericCommendRepository QueryRepository { get; }
+
         int Commit();
     }
 }
